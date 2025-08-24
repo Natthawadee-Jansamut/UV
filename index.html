@@ -64,7 +64,7 @@ const uvs = [
         geom.setAttribute('uv', new THREE.Float32BufferAttribute(uvs, 2));
         geom.computeVertexNormals();
 
-        const tex = new THREE.TextureLoader().load('https://github.com/Natthawadee-Jansamut/UV/blob/a5029a2d97b5295baed3da778dfaa16c947c8df8/Patrick_c.png', t => {
+        const tex = new THREE.TextureLoader().load('Patrick_c.png', t => {
             t.encoding = THREE.sRGBEncoding;
         });
         const mat = new THREE.MeshStandardMaterial({
